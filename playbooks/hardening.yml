@@ -1,0 +1,7 @@
+---
+- name: System Hardening Playbook
+  hosts: all
+  become: true
+  roles:
+    - system-hardening
+    - security-compliance
